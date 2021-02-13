@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+*  Create Rails Application
+  #rails new rails_react_app -d=postgresql -T --webpack=react --skip-coffee
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*  Installing Frontend  
+   React Router, for handling navigation in a React application.
+   Bootstrap, for styling your front-end components.
+   jQuery and Popper, for working with Bootstrap.
+  #yarn add react-router-dom bootstrap jquery popper.js
+  #cat package.json
